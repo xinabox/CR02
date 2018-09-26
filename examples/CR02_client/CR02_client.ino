@@ -36,8 +36,8 @@ void setup()
 
 void loop()
 {
-  Serial.println("Sending to CR03_server");
-  // Send a message to CR03_server
+  Serial.println("Sending to CR02_server");
+  // Send a message to CR02_server
 
   sprintf(tempdata, "%s", "Hello Server");
 
@@ -66,7 +66,7 @@ void loop()
   }
   else
   {
-    Serial.println("No reply, is CR03_server running?");
+    Serial.println("No reply, is CR02_server running?");
   }
   digitalWrite(LED_BUILTIN, LOW);
   delay(400);
