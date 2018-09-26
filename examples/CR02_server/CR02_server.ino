@@ -27,7 +27,7 @@ void setup()
   // Failure to do that will result in extremely low transmit powers.
 
   //CR02.setModemConfig(CR02.Bw31_25Cr48Sf512);
-  CR02.setFrequency(433.0);
+  CR02.setFrequency(CR02_FREQUENCY);
   CR02.setTxPower(23, false);
 }
 
